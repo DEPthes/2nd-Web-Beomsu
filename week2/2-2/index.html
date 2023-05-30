@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="chat.css">
+</head>
+<body>
+    <div class="container">
+        <p class="title_friend">친구</p>
+
+        <div id="profile" class="profile_container">
+            <img class="profile" src="img/Vector.png">
+            <p class="name">박상민</p>
+            <img class="music" src="img/Frame 10727.png">
+        </div>
+
+        <div class="menu">
+            <button class="person"></button>
+            <a class="chatting" href="chattingRoom.html"></a>
+            <button class="option"></button>
+        </div>
+    </div>
+
+    <script>
+        var container = document.querySelector(".container");
+        var topValue = 50; 
+
+        for (var i = 1; i < 5; i++) {
+            var profileDiv = document.createElement("div"); 
+            profileDiv.classList.add("profile_container");
+            profileDiv.style.top = topValue + "px"; 
+
+            var profileImage = document.createElement("img");
+            profileImage.classList.add("profile");
+            profileImage.src = "img/Vector.png";
+            profileDiv.appendChild(profileImage);
+
+            var nameParagraph = document.createElement("p");
+            nameParagraph.classList.add("name");
+            if (i===1) {
+                nameParagraph.textContent = "나범수";
+            } else if (i===2) {
+                nameParagraph.textContent = "정승우";
+            } else if (i===3) {
+                nameParagraph.textContent = "장현준";
+            } else if (i===4) {
+                nameParagraph.textContent = "이보현";
+            }
+            profileDiv.appendChild(nameParagraph);
+
+            var musicImage = document.createElement("img");
+            musicImage.classList.add("music");
+            musicImage.src = "img/Frame 10727.png";
+            profileDiv.appendChild(musicImage);
+
+            container.appendChild(profileDiv);
+
+            topValue += 50; 
+        }
+
+    </script>
+</body>
+</html>

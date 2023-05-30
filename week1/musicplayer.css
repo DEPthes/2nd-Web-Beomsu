@@ -1,0 +1,203 @@
+.container {
+    width: 390px;
+    height: 844px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative
+}
+  
+.vector_div {
+    position: absolute;
+    top: 32px;
+    left: 25px;
+    width: 30px;
+    height: 30px;
+}
+.vector {
+    background-color: transparent;
+    border: none;
+}
+  
+.vector img {
+    position: absolute;
+    width: 18.75px;
+    height: 10.69px;
+} 
+.volumn_div {
+    position: absolute;
+    top: 35px;
+    left: 240px;
+}
+.volumn {
+    background-color: transparent;
+    border: none;
+}
+.audio_console {
+    background-color: transparent;
+    border: none;
+}
+.barrier {
+    background-color: transparent;
+    border: none;
+}
+.music_img {
+    position: absolute;
+    width: 228px;
+    height: 209px;
+    left: calc(50% - 228px/2);
+    top: 125px;
+
+}
+.title {
+    position: absolute;
+    width: 177px;
+    height: 24px;
+    left: calc(50% - 177px/2 + 0.5px);
+    top: 354px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+}
+.singer {
+    position: absolute;
+    width: 56px;
+    height: 18px;
+    left: calc(50% - 56px/2);
+    top: 388px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #9A9595;
+}
+.add_div {
+    position: absolute;
+    width: 360px;
+    height: 30px;
+    top: 646px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.music_icon {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.favorite {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    left: 30px;
+}
+.add {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.line_div {
+    position: absolute;
+    width: 340px;
+    height: 30px;
+    top: 710px;
+    display: flex;
+}
+.ellipse {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    z-index: 1;
+}
+.line {
+    position: absolute;
+    width: 332px;
+    height: 0px;
+    top: 7px;
+    
+    border: 2px solid #6A6666;
+}
+.time_div {
+    position: absolute;
+    width: 340px;
+    height: 30px;
+    top: 730px;
+    display: flex;
+}
+.current_time{
+    position: absolute;
+    width: 26px;
+    height: 15px;
+    left: 15px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    
+    
+    color: #FFFFFF;
+}
+.full_time{
+    position: absolute;
+    width: 26px;
+    height: 15px;
+    left: 310px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    
+    
+    color: #FFFFFF;
+}
+.play_div {
+    position: absolute;
+    width: 340px;
+    height: 30px;
+    top: 767px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shuffle {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.back {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.play {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.forward {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.repeat {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+ 

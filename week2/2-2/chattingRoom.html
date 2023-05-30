@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChattingRoom</title>
+    <link rel="stylesheet" href="chat.css">
+</head>
+<body>
+    <div class="container">
+        <p class="title_friend">채팅</p>
+        <p class="openChatting">오픈 채팅</p>
+
+        <div class="chatting_div">
+            <div id="profile" class="profile_container">
+                <img class="profile" src="img/Vector.png">
+                <p class="chatting_title">Depth 공지</p>
+                <p class="numberOfPerson">5</p>
+                <p class="chatting_detail">ㅇㅇㅇㅇㅇㅇㅇ</p>
+                <p class="time">5월 24일</p>
+            </div>
+            <div id="profile" class="profile_container2">
+                <img class="profile" src="img/Vector.png">
+                <p class="chatting_title">나범수</p>
+                <p class="numberOfPerson">2</p>
+                <p class="chatting_detail">ㅇㅇㅇㅇㅇㅇㅇ</p>
+                <p class="time">오후 1:01</p>
+            </div>
+            <div id="profile" class="profile_container3">
+                <img class="profile" src="img/Vector.png">
+                <p class="chatting_title">정승우</p>
+                <p class="numberOfPerson">2</p>
+                <p class="chatting_detail">ㅇㅇㅇㅇㅇㅇㅇ</p>
+                <p class="time">오후 7:01</p>
+            </div>
+            <div id="profile" class="profile_container4">
+                <img class="profile" src="img/Vector.png">
+                <p class="chatting_title">장현준</p>
+                <p class="numberOfPerson">2</p>
+                <p class="chatting_detail">ㅇㅇㅇㅇㅇㅇㅇ</p>
+                <p class="time">오후 5:10</p>
+            </div>
+            <div id="profile" class="profile_container5">
+                <img class="profile" src="img/Vector.png">
+                <p class="chatting_title">이보현</p>
+                <p class="numberOfPerson">2</p>
+                <p class="chatting_detail">ㅇㅇㅇㅇㅇㅇㅇ</p>
+                <p class="time">오후 10:01</p>
+            </div>
+        </div>
+        <div class="menu">
+            <a class="person_chatting" href="index.html"></a>
+            <button class="chatting_chatting"></button>
+            <button class="option"></button>
+        </div>
+    </div>
+
+
+    <!-- <script>
+        var container = document.querySelector(".container");
+        var topValue = 50; 
+
+        for (var i = 1; i < 5; i++) {
+            var profileDiv = document.createElement("div"); 
+            profileDiv.classList.add("profile_container");
+            profileDiv.style.top = topValue + "px"; 
+
+            var profileImage = document.createElement("img");
+            profileImage.classList.add("profile");
+            profileImage.src = "img/Vector.png";
+            profileDiv.appendChild(profileImage);
+
+            var chattingTitle = document.createElement("p");
+            chattingTitle.classList.add("chatting_title");
+            if (i===1) {
+                chattingTitle.textContent = "나범수";
+            } else if (i===2) {
+                chattingTitle.textContent = "정승우";
+            } else if (i===3) {
+                chattingTitle.textContent = "장현준";
+            } else if (i===4) {
+                chattingTitle.textContent = "이보현";
+            }
+            profileDiv.appendChild(chattingTitle);
+
+            var numberOfPerson = document.createElement("p");
+            numberOfPerson.classList.add("numberOfPerson");
+            if (i===1) {
+                numberOfPerson.textContent = "2";
+            } else if (i===2) {
+                numberOfPerson.textContent = "2";
+            } else if (i===3) {
+                numberOfPerson.textContent = "2";
+            } else if (i===4) {
+                numberOfPerson.textContent = "2";
+            }
+            profileDiv.appendChild(numberOfPerson);
+
+            var chattingDetail = document.createElement("p");
+            chattingDetail.classList.add("chatting_detail")
+            chattingDetail.textContent = "ㅇㅇㅇㅇㅇㅇㅇ";
+            profileDiv.appendChild(chattingDetail);
+
+            var time = document.createElement("p");
+            time.classList.add("time")
+            if (i===1) {
+                time.textContent = "오후 1:01";
+            } else if (i===2) {
+                time.textContent = "오후 7:01";
+            } else if (i===3) {
+                time.textContent = "오후 5:10";
+            } else if (i===4) {
+                time.textContent = "오후 10:01";
+            }
+            profileDiv.appendChild(time);
+
+            container.appendChild(profileDiv);
+
+            topValue += 50; 
+        }
+
+    </script> -->
+</body>
+</html>
