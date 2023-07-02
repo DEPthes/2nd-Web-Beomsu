@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+.input {
+  text-align: center;
+  background-color: #f2f2f2;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  padding: 8px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.map {
+  margin: 5px;
+  padding: 8px;
+}
