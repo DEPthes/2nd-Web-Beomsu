@@ -1,0 +1,26 @@
+.layout {
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  margin-top: 10%;
+  margin-left: 25%;
+}
+
+.cardLayout {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+}
+.card_Number {
+  justify-content: flex-end;
+}
+.finish {
+  width: 543px;
+  height: 176px;
+  top: 564px;
+  left: 190px;
+  background: #000000;
+  color: white;
+  display : flex;
+  justify-content : center;
+  align-items : center;}

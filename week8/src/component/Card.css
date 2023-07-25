@@ -1,0 +1,18 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 150px;
+  background: #5d5fef;
+  margin-top: 10px;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.card.flipped {
+  transform: rotateY(180deg);
+}
+
+.card.removed {
+  opacity: 0; 
+}
